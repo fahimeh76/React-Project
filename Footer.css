@@ -1,0 +1,14 @@
+
+footer {
+    background-color: rgba(136, 241, 182, 0.32);
+    color: rgb(58, 56, 53);
+    padding: 5px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+p{
+    font: 'Rye';
+    font-size: 12px;
+}

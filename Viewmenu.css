@@ -1,0 +1,173 @@
+
+.container {
+    display: flex;
+}
+
+
+.burger-container {
+    display: flex;
+    /* Enables flexbox layout */
+    flex-direction: column;
+    /* Aligns elements vertically */
+    align-items: center;
+    /* Centers the elements horizontally */
+    justify-content: flex-start;
+    /* Aligns the items to the top */
+    text-align: center;
+    /* Centers text */
+
+}
+
+.burger-container p {
+    margin: 0;
+    /* Removes default margin from <p> */
+    padding-bottom: 10px;
+    /* Adds some space between the text and the image */
+    padding-top: 60px;
+    font-size: large;
+    border-bottom: 2px solid black;
+     /* Line thickness and color */
+    padding-bottom: 2px;
+    /* Adds space between text and line */
+}
+
+.burger-container img {
+    width: 300px;
+    /* Adjust image width */
+    height: 200px;
+    /* Adjust image height */
+    object-fit: cover;
+    /* Ensures image fits the container without distortion */
+    padding: 10px;
+}
+
+.pizza-container {
+    display: flex;
+    /* Enables flexbox layout */
+    flex-direction: column;
+    /* Aligns elements vertically */
+    align-items: center;
+    /* Centers the elements horizontally */
+    justify-content: flex-start;
+    /* Aligns the items to the top */
+    text-align: center;
+    /* Centers text */
+}
+
+.pizza-container p {
+    margin: 0;
+    /* Removes default margin from <p> */
+    padding-bottom: 10px;
+    /* Adds some space between the text and the image */
+    padding-top: 60px;
+    font-size: large;
+    border-bottom: 2px solid black;
+    /* Line thickness and color */
+    padding-bottom: 2px;
+    /* Adds space between text and line */  
+}
+
+.pizza-container img {
+    width: 300px;
+    /* Adjust image width */
+    height: 200px;
+    /* Adjust image height */
+    object-fit: cover;
+    /* Ensures image fits the container without distortion */
+    padding: 10px;
+}
+
+.steak-container {
+    display: flex;
+    /* Enables flexbox layout */
+    flex-direction: column;
+    /* Aligns elements vertically */
+    align-items: center;
+    /* Centers the elements horizontally */
+    justify-content: flex-start;
+    /* Aligns the items to the top */
+    text-align: center;
+    /* Centers text */
+}
+
+.steak-container p {
+    margin: 0;
+    /* Removes default margin from <p> */
+    padding-bottom: 10px;
+    /* Adds some space between the text and the image */
+    padding-top: 60px;
+    font-size: large;
+    border-bottom: 2px solid black;
+    /* Line thickness and color */
+    padding-bottom: 2px;
+    /* Adds space between text and line */
+}
+
+.steak-container img {
+    width: 300px;
+    /* Adjust image width */
+    height: 200px;
+    /* Adjust image height */
+    object-fit: cover;
+    /* Ensures image fits the container without distortion */
+    padding: 10px;
+}
+
+
+
+
+.buttons {
+    display: flex;
+    gap: 15px;
+    margin-top: 40px;
+    margin-right: 60px;
+    justify-content: center;
+    position: sticky;
+
+}
+
+.buttons button {
+    margin: 0 10px;
+    font-family: "Rye", serif;
+    padding: 10px 20px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    position: sticky
+}
+
+.reserve-button {
+    background-color: #186DA2;
+    color: white;
+    margin-bottom: 20px;
+   
+    font-size: 1.2rem;
+
+}
+
+.order-button {
+    background-color: #1F6A40;
+    color: white;
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+}
+
+.homepage-button {
+    background-color: #BA7720;
+    color: white;
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+
+}
+.viewmore-button {
+    margin-bottom: 10px;
+    font-size: 1.0rem;
+    font-family: "Rye", serif;
+
+}
+
+button:hover {
+    opacity: 0.9;
+}
+

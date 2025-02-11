@@ -1,0 +1,100 @@
+.Reserve {
+    text-align: center;
+    /* Center everything inside the Reserve section */
+}
+
+table {
+    margin: 0 auto;
+    /* Center the table horizontally */
+}
+
+label {
+    font-family: "Rye", serif;
+    font-size: 14px;
+    padding: 10px;
+}
+
+.dropdown {
+    font-family: "Rye", serif;
+    /* Change the font for the dropdown */
+    font-size: 14px;
+    /* Adjust font size */
+    font-weight: bold;
+    /* Optional: Make it bold */
+    color: #333;
+    /* Change text color */
+}
+.dropdown:focus {
+    font-family: "Rye", serif;
+    font-size: 14px;
+    color: #555;
+}
+
+.Indoor,
+.Outdoor {
+    padding: 20px;
+    margin-left: 50px;
+    /* Adjust space between Indoor and Outdoor sections */
+}
+
+.buttons-wrapper {   /* برای حل مشکل جابه جایی دکمه ها با محتوا  */
+    margin-top: 200px;
+    /* Adjust vertical spacing from the table */
+    display: flex;
+    justify-content: center;
+    /* Center align the buttons */
+}
+
+.Save-Butn{
+        display: flex;
+        font-family: "Rye", serif;
+        font-size: 14px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        padding: 10px 10px;
+        margin-top: 50px;
+        margin-left: 720px;
+        background-color: #19e56a;
+        width: 35px;
+
+       
+
+
+}
+.buttons {
+    display: flex;
+    gap: 15px;
+    /* Add spacing between buttons */
+}
+
+.buttons button {
+    font-family: "Rye", serif;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px 20px;
+}
+
+.reserve-button {
+    background-color: #186DA2;
+    color: white;
+    font-size: 1.2rem;
+}
+
+.order-button {
+    background-color: #1F6A40;
+    color: white;
+    font-size: 1.2rem;
+}
+
+.homepage-button {
+    background-color: #BA7720;
+    color: white;
+    font-size: 1.2rem;
+}
+
+button:hover {
+    opacity: 0.9;
+}
